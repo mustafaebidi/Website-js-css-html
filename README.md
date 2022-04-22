@@ -1,7 +1,7 @@
 # Website-js-css-html
 
 
-#live Server
+# live Server
 
 websitee-js.netlify.app
 
