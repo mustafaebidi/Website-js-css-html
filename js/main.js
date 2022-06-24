@@ -40,7 +40,6 @@ let percentageOfCircle=document.querySelectorAll(".circles .backgroud .percentag
 let circles=document.querySelectorAll(".efficiency .circles .circle")
 
 
-let modePage="light"
 
 let mainColor=getComputedStyle(document.documentElement).getPropertyValue('--main-color')
 
@@ -51,6 +50,8 @@ let listOfdoneAnimationCircle=[]
 
 
 window.onload = function() {
+
+    rateScroll.style.width="0px"
 
     leftLadding.classList.add("animation")
     rightLadding.classList.add("animation")
@@ -92,7 +93,6 @@ mode.onclick=function(){
 
 window.onscroll=function(){
 
-
     doAnimationNav(this.pageYOffset)
 
     ///This is percentage of scroll
@@ -120,7 +120,6 @@ window.onscroll=function(){
     doAnimationAtContactSection(this.pageYOffset)
 
     doAnimationInOurBlog(this.pageYOffset)
-
 
 
 }
